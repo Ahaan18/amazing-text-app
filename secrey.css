@@ -1,0 +1,33 @@
+.info{
+    font-size: 23px;
+width: 100%;
+margin: 0px;
+box-shadow: 5px 5px 5px gray;
+}
+.warn{
+    font-size: 15px;
+}
+#v{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: green;
+    line-height: 3;
+    text-align: center;
+}
+canvas{
+    border-radius: 20px;
+    margin-top: 150px;
+    animation-name: anime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes anime{
+    from{
+        border: 15px solid lawngreen;
+    }
+    to{
+        border: 5px solid purple;
+    }
+}
